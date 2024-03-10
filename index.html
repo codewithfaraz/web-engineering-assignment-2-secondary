@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Faraz Maqsood</title>
+  </head>
+  <body class="">
+    <aside class="social-icons position-fixed top-50">
+      <a href="www.github.com" class="github position-relative"
+        ><img src="./resources/github.png" alt="" class="d-block"
+      /></a>
+      <a href="www.linkedin.com" class="linkedin position-relative"
+        ><img src="./resources/linkedin.png" alt="" class="d-block"
+      /></a>
+      <a href="www.x.com" class="x position-relative"
+        ><img src="./resources/x.png" alt="" class="d-block"
+      /></a>
+    </aside>
+    <header class="header">
+      <nav class="pc-nav container d-flex justify-content-between p-2">
+        <div class="logo h1 text-white">A.</div>
+        <button class="btn hire-me-btn text-white px-5 py-0">Hire Me</button>
+      </nav>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark mobile-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#logo">Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div
+        class="header__content container row position-absolute mx-5 top-50 px-5"
+      >
+        <div class="navigation col-md-6">
+          <ul class="navigation__list list-unstyled">
+            <li class="navigation__item h1 display-1">
+              <a
+                href=""
+                class="navigation__link text-decoration-none text-uppercase"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navigation__item h1 display-1">
+              <a
+                href=""
+                class="navigation__link text-decoration-none text-uppercase"
+                >Services</a
+              >
+            </li>
+            <li class="navigation__item h1 display-1">
+              <a
+                href=""
+                class="navigation__link text-decoration-none text-uppercase"
+                >Projects</a
+              >
+            </li>
+            <li class="navigation__item h1 display-1">
+              <a
+                href=""
+                class="navigation__link text-decoration-none text-uppercase"
+                >Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="navigation__image col-md-6 position-relative">
+          <img
+            src="./resources/header_image.png"
+            alt=""
+            class="w-100 rounded-5"
+          />
+        </div>
+      </div>
+    </header>
+    <section class="container services">
+      <h1 class="services_heading text-uppercase text-center">
+        My Quality Work
+      </h1>
+      <p class="services__description text-center w-75 mx-auto text-white">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+        nostrum aliquid itaque obcaecati, quos dolor autem doloremque ducimus a
+        voluptatem.
+      </p>
+      <div class="service d-flex justify-content-between position-relative p-1">
+        <h1 class="service__name text-uppercase">01 Web Design</h1>
+        <p class="service__description w-50">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim
+          ratione eveniet, eos optio laudantium praesentium accusamus quisquam
+          quaerat repellendus.
+        </p>
+        <a href="" class="service__link text-decoration-none">&rarr;</a>
+      </div>
+      <div class="service d-flex justify-content-between position-relative p-1">
+        <h1 class="service__name text-uppercase">02 UI/UX Design</h1>
+        <p class="service__description w-50">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim
+          ratione eveniet, eos optio laudantium praesentium accusamus quisquam
+          quaerat repellendus.
+        </p>
+        <a href="" class="service__link text-decoration-none">&rarr;</a>
+      </div>
+      <div class="service d-flex justify-content-between position-relative p-1">
+        <h1 class="service__name text-uppercase">03 Blockchain</h1>
+        <p class="service__description w-50">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim
+          ratione eveniet, eos optio laudantium praesentium accusamus quisquam
+          quaerat repellendus.
+        </p>
+        <a href="" class="service__link text-decoration-none">&rarr;</a>
+      </div>
+    </section>
+    <!-- reviews section markup -->
+    <section class="container reviews">
+      <h1 class="reviews_heading text-uppercase text-center">
+        Customer Satisfaction
+      </h1>
+      <div class="reviews__content row mt-5">
+        <div class="reviews__images col-6">
+          <img
+            src="./resources/review_1.jpg"
+            alt=""
+            class="review__img img1 active__reviewer"
+            data-set="1"
+          />
+          <img
+            src="./resources/review_2.jpg"
+            alt=""
+            class="review__img img2"
+            data-set="2"
+          />
+          <img
+            src="./resources/review_3.jpg"
+            alt=""
+            class="review__img img3"
+            data-set="3"
+          />
+          <img
+            src="./resources/review_1.jpg"
+            alt=""
+            class="review__img img4"
+            data-set="4"
+          />
+          <img
+            src="./resources/review_2.jpg"
+            alt=""
+            class="review__img img5"
+            data-set="5"
+          />
+        </div>
+        <div class="reviews__text col-6 position-relative p-5">
+          <div
+            class="review review1 text-center position-absolute active__review"
+          >
+            <i class="fas fa-quote-left"></i>
+            <h1 class="reviewer__name">Dr. Sarah</h1>
+            <p class="reviwer__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laboriosam odit sit voluptate cupiditate natus temporibus
+              repellendus doloremque sapiente a. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptates dolor fugit esse minima
+              illum ex alias veritatis iure praesentium obcaecati?
+            </p>
+          </div>
+          <div class="review review2 text-center position-absolute">
+            <i class="fas fa-quote-left"></i>
+            <h1 class="reviewer__name text-uppercase">D Joe</h1>
+            <p class="reviwer__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laboriosam odit sit voluptate cupiditate natus temporibus
+              repellendus doloremque sapiente a. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptates dolor fugit esse minima
+              illum ex alias veritatis iure praesentium obcaecati?
+            </p>
+          </div>
+          <div class="review review3 text-center position-absolute">
+            <i class="fas fa-quote-left"></i>
+            <h1 class="reviewer__name">Ahmad ali</h1>
+            <p class="reviwer__text text-uppercase">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laboriosam odit sit voluptate cupiditate natus temporibus
+              repellendus doloremque sapiente a. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptates dolor fugit esse minima
+              illum ex alias veritatis iure praesentium obcaecati?
+            </p>
+          </div>
+          <div class="review review4 text-center position-absolute">
+            <i class="fas fa-quote-left"></i>
+            <h1 class="reviewer__name text-uppercase">Faraz Maqsood</h1>
+            <p class="reviwer__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laboriosam odit sit voluptate cupiditate natus temporibus
+              repellendus doloremque sapiente a. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptates dolor fugit esse minima
+              illum ex alias veritatis iure praesentium obcaecati?
+            </p>
+          </div>
+          <div class="review review5 text-center position-absolute">
+            <i class="fas fa-quote-left"></i>
+            <h1 class="reviewer__name text-uppercase">Umair Afzal</h1>
+            <p class="reviwer__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              laboriosam odit sit voluptate cupiditate natus temporibus
+              repellendus doloremque sapiente a. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptates dolor fugit esse minima
+              illum ex alias veritatis iure praesentium obcaecati?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-me-section container row mx-auto">
+      <form action="" class="form w-50 col">
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="Email Address"
+          class="email rounded-3 border-0 p-3"
+        />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message....."
+          class="mt-5 rounded-3 border-0 p-3"
+        ></textarea>
+        <button class="btn align-self-start mt-3">Send Message</button>
+      </form>
+      <div
+        class="contact-information col text-white h3 d-flex flex-column justify-content-center mx-5"
+      >
+        <div class="telephone mt-5">
+          <i class="fa-solid fa-phone"></i>
+          +92346827267
+        </div>
+        <div class="address mt-5">
+          <i class="fa-solid fa-location-crosshairs"></i>
+          Faisalabad, Pakistan
+        </div>
+        <div class="email-address mt-5">
+          <i class="fa-solid fa-envelope"></i>
+          farazmaqsood97@gmail.com
+        </div>
+      </div>
+    </section>
+    <h1 class="education-experience-primary-heading text-center">Education & Achievements</h1>
+    <section class="education-experience container p-2 my-5">
+      
+      <div class="box box1 p-2 w-75">
+        <h5 class="education-experience-heading">Intermediate of computer science</h5>
+        <p class="education-experience-description w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis sequi maxime, voluptate itaque consequatur?</p>
+      </div>
+      <div class="box box2 p-2 w-75">
+        <h5 class="education-experience-heading">ICPC</h5>
+        <p class="education-experience-description w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis sequi maxime, voluptate itaque consequatur?</p>
+      </div>
+      <div class="box box3 p-2 w-75">
+        <h5 class="education-experience-heading">BS(SE)</h5>
+        <p class="education-experience-description w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis sequi maxime, voluptate itaque consequatur?</p>
+      </div>
+    </section>
+    <section class="projects-section container mx-auto">
+      <h1 class="projects-section__heading secondary-heading text-center">
+        My Projects
+      </h1>
+      <p
+        class="projects-section-description text-center text-white w-75 mx-auto"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus amet
+        ipsam repellat placeat molestias obcaecati quae deserunt et repellendus
+        a.
+      </p>
+      <div class="buttons text-center">
+        <button
+         
+          class="btn projects-btn text-white text-uppercase active-project"
+          data-set="1"
+          >Web Design</button
+        >
+        <button  class="btn projects-btn text-white text-uppercase"
+        data-set="2"
+          >UI/ux design</a
+        >
+        <button class="btn projects-btn text-white text-uppercase"
+        data-set="3"
+          >Wordpress</button
+        >
+      </div>
+      <div class="projects mt-5">
+        <div class="web-design-projects project row active project1">
+          <div class="web-design-1 col p">
+            <img src="./resources/img.jpg" alt="" class="w-100 rounded-5" />
+            <a
+              href=""
+              class="text-decoration-none project-btn rounded-2 text-white h2"
+              >Web Design in Figma</a
+            >
+          </div>
+          <div class="web-design-2 col p">
+            <img
+              src="./resources/webdesign.jpg "
+              alt=""
+              class="w-100 rounded-5"
+            />
+            <a
+              href=""
+              class="text-decoration-none project-btn rounded-2 text-white h2"
+              >Web Design in Adobe</a
+            >
+          </div>
+        </div>
+        <div class="UI-design-projects project row project2">
+          <div class="web-design-1 col p">
+            <img src="./resources/img.jpg" alt="" class="w-100 rounded-5" />
+            <a
+              href=""
+              class="text-decoration-none project-btn rounded-2 text-white h2"
+              >UI/UX in Figma</a
+            >
+          </div>
+          <div class="web-design-2 col p">
+            <img
+              src="./resources/webdesign.jpg "
+              alt=""
+              class="w-100 rounded-5"
+            />
+            <a
+              href=""
+              class="text-decoration-none project-btn rounded-2 text-white h2"
+              >UI/UX in Adobe</a
+            >
+          </div>
+        </div>
+        <div class="wordpress-design-projects project row project3">
+          <div class="web-design-1 col p">
+            <img
+              src="./resources/wordpress (1).jpg"
+              alt=""
+              class="w-100 rounded-5"
+            />
+            <a
+              href=""
+              class="text-decoration-none project-btn rounded-2 text-white h2"
+              >Wordpress Development</a
+            >
+          </div>
+          <div class="web-design-2 col p">
+            <img
+              src="./resources/wordpress (2).jpg"
+              alt=""
+              class="w-100 rounded-5"
+            />
+            <a
+              href=""
+              class="text-decoration-none project-btn rounded-2 text-white h2"
+              >Wordpress Plugins</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-section container-fluid bg-white p-3 text-dark">
+      <div class="logo h1 text-center">A.</div>
+      <ul class="footer__list list-unstyled text-center">
+        <li class="d-inline m-2 text-dark">
+          <a href="" class="text-decoration-none text-dark list-link"
+            >Services</a
+          >
+        </li>
+        <li class="d-inline m-2 text-dark">
+          <a href="" class="text-decoration-none text-dark list-link"
+            >Customer Reviews</a
+          >
+        </li>
+        <li class="d-inline m-2 text-dark">
+          <a href="" class="text-decoration-none text-dark list-link"
+            >Contact Me</a
+          >
+        </li>
+      </ul>
+      <p class="copyright-content text-dark">2024 &copy; Faraz Maqsood</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
